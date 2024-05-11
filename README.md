@@ -15,7 +15,9 @@
 ```shell
    python demo_train.py --model resnet --data_type photo
 ```
+通过指定--model 可切换不同模型，支持vgg、resnet、densenet。指定--data_type 可切换photo或者sketch数据集。
 - 预测
 ```shell
    python demo_predict.py --model resnet --data_type photo
 ```
+参数说明与训练一致。
